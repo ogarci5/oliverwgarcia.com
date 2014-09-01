@@ -6,3 +6,7 @@ img.portrait {
 .home-title {
   margin-top: 56px;
 }
+
+#about, #home {
+  font-size: 16px;
+}
