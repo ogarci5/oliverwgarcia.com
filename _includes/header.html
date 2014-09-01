@@ -13,10 +13,10 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
-      <li{% if page.body_class == 'home' %} class="active"{% endif %}><a href="/">Home</a></li>
-      <li{% if page.body_class == 'about' %} class="active"{% endif %}><a href="/about">About Me</a></li>
-      <li{% if page.body_class == 'resume' %} class="active"{% endif %}><a href="/resume">Resume</a></li>
-      <li{% if page.body_class == 'projects' %} class="active"{% endif %}><a href="/projects">Projects</a></li>
+      <li{% if page.body_class == 'home' %} class="active"{% endif %}><a href="{{ site.url }}/">Home</a></li>
+      <li{% if page.body_class == 'about' %} class="active"{% endif %}><a href="{{ site.url }}/about">About Me</a></li>
+      <li{% if page.body_class == 'resume' %} class="active"{% endif %}><a href="{{ site.url }}/resume">Resume</a></li>
+      <li{% if page.body_class == 'projects' %} class="active"{% endif %}><a href="{{ site.url }}/projects">Projects</a></li>
     </ul>
   </div>
 </nav>
